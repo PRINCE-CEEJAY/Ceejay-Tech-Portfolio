@@ -18,11 +18,7 @@ const AboutSection = () => {
               to stay ahead in the tech industry? , you have come to the right
               person!
             </p>
-            <p className="text-muted-foreground">
-              Do you ever wish to have your own website ?, have you ever desired
-              to stay ahead in the tech industry? , you have come to the right
-              person!
-            </p>
+
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 Get In Touch
