@@ -107,7 +107,7 @@ const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Prince Ceejay"
+                  placeholder="John Wisky"
                 />
               </div>
               <div>
@@ -123,7 +123,7 @@ const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="nancy@gmmail.com"
+                  placeholder="johnwisky@gmail.com"
                 />
               </div>
               <div>
@@ -144,7 +144,7 @@ const ContactSection = () => {
               <button
                 type="submit"
                 className={cn(
-                  "cosmic-button w-full flex items-center justify-center gap-2"
+                  "cosmic-button cursor-pointer w-full flex items-center justify-center gap-2"
                 )}
               >
                 Send a Message
