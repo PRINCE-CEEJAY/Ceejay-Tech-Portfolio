@@ -4,21 +4,21 @@ import React, { useState } from "react";
 const Questions = [
   {
     id: 1,
-    question: "Is HTML really important to web dev ?",
+    question: "Who is Ceejay Tech ?",
     answer:
-      "Yes, it is the core markup language that the browser uses to display information about your web page",
+      "Ceejay Tech is a leading web developer team committed to building responsive web apps",
   },
   {
     id: 2,
-    question: "How is React used for UI design",
+    question: "What does Ceejay Tech Specialize on",
     answer:
-      "React is a frontend UI library developed by facebook engineers to facilitate fast and efficient UI building for the web page",
+      "We specialize in building scalable web apps and training upcoming developers",
   },
   {
     id: 3,
-    question: "which programming language is the most popular ?",
+    question: "Is Ceejay Tech open for collaboration ?",
     answer:
-      "There is no singular language that is more popular than the other but for some reasons python appears to be on top demand due to its simplicity and user friendly",
+      "Yes, our team is open to accept your collaborations and any freelancing opportunities that are available in front end web development",
   },
 ];
 const FAQ = () => {
