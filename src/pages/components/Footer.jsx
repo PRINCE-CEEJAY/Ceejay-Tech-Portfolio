@@ -1,9 +1,11 @@
 import { ArrowUp } from "lucide-react";
 import React from "react";
+import FAQ from "./FAQ";
 
 const Footer = () => {
   return (
     <footer className="py-12 px-4 bg-card flex flex-col border-t border-border mt-12 pt-8 justify-center">
+      <FAQ />
       <p className="text-sm text-muted-foreground ">
         &copy; {new Date().getFullYear()} Ceejay International. All rights
         researved.
