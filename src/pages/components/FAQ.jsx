@@ -35,7 +35,7 @@ const FAQ = () => {
       {Questions.map((q) => (
         <div
           key={q.id}
-          className="flex flex-col gap-3 w-full bg-primary/30 mb-2 p-2 rounded-md"
+          className="flex flex-col gap-3 w-full bg-primary/30 mb-2 p-1 rounded-md"
         >
           <div
             className="flex flex-row cursor-pointer text-red-800 justify-center text-xl"
