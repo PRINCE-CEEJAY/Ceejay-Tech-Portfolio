@@ -9,7 +9,7 @@ const HeroSection = () => {
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
-          <h1 className="text-3xl md:text-md font-bold tracking-tight">
+          <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi I'm </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               Prince{" "}
@@ -18,7 +18,7 @@ const HeroSection = () => {
               Ceejay
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl max-auto opacity-0 animate-fade-in-delay-3 ">
+          <p className="text-xl md:text-2xl text-muted-foreground max-2-2xl max-auto opacity-0 animate-fade-in-delay-3 ">
             I am a passionate Front End Web Developer, specializing in React Js
             Library
           </p>

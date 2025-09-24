@@ -9,6 +9,7 @@ const NavItems = [
   { name: "Skills", href: "#skills" },
   { name: "Project", href: "#projects" },
   { name: "Contact", href: "#contact" },
+  { name: "FAQ", href: "#FAQ" },
 ];
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="font-bold text-xl text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>

@@ -68,38 +68,11 @@ const ContactSection = () => {
       .catch((error) => {
         setStatus(`An error occured ${error}`);
       });
-
-    // setTimeout(() => {
-    //   setContactForm({
-    //     username: "",
-    //     email: "",
-    //     message: "",
-    //     loading: false,
-    //     status: "Message successfully sent to  Ceejay",
-    //   });
-    //   // saveToLocalStorage();
-    // }, 2000);
   };
-  // const saveToLocalStorage = () => {
-  //   const userData = {
-  //     name: contactForm.username,
-  //     email: contactForm.email,
-  //     message: contactForm.message,
-  //   };
-  //   try {
-  //     localStorage.setItem(
-  //       JSON.stringify(userData.email),
-  //       JSON.stringify(userData)
-  //     );
-  //   } catch (error) {
-  //     console.log("An error occured saving your details ", error);
-  //   }
-  // };
-
   return (
     <section id="contact" className="py-24 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bbold mb-4 text-center">
+        <h2 className="font-bold text-4xl md:text-5xl font-bbold mb-4 text-center">
           Get In <span className="text-primary">Touch</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -152,12 +125,12 @@ const ContactSection = () => {
               </div>
             </div>
             <div className="pt-8 mx-auto">
-              <h4>Connect With Me</h4>
+              <h4 className="font-bold text-2xl">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
                   href="https://web.facebook.com/princeceejay.ng.1"
                   target="_blank"
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center font-bold"
                 >
                   <p>Facebook</p>
                   <Facebook />
@@ -165,7 +138,7 @@ const ContactSection = () => {
                 <a
                   href="https://www.youtube.com/@Prince_Ceejay_NG"
                   target="_blank"
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center font-bold"
                 >
                   <p>Youtube</p>
                   <Youtube />
@@ -173,27 +146,11 @@ const ContactSection = () => {
                 <a
                   href="https://www.linkedin.com/in/prince-ceejay-ng-01b544233/"
                   target="_blank"
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center font-bold"
                 >
                   <p>LinkedIn</p>
                   <Linkedin />
                 </a>
-                {/* <a
-                  href="#"
-                  target="_blank"
-                  className="flex flex-col items-center"
-                >
-                  <p>Twitter</p>
-                  <Twitter />
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="flex flex-col items-center"
-                >
-                  <p>Instagram</p>
-                  <Instagram />
-                </a> */}
               </div>
             </div>
           </div>

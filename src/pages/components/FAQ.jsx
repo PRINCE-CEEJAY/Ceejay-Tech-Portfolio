@@ -30,7 +30,10 @@ const FAQ = () => {
     setIsActive((prev) => !prev);
   };
   return (
-    <div className="flex flex-col bg-secondary-foreground p-1 w-full rounded-md ">
+    <div
+      id="FAQ"
+      className="flex flex-col bg-secondary-foreground p-1 w-full rounded-md "
+    >
       <h1 className="font-bold text-xl text-secondary-foreground">
         FREQUENTLY ASKED QUESTIONS
       </h1>
