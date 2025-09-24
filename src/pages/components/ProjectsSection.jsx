@@ -21,10 +21,49 @@ const projects = [
   },
   {
     id: 3,
-    title: "AI Photo Analyzer",
-    description: "Analyse any photo and extract texts from it, made with nexjs",
-    image: "/projects/project3.jpg",
-    tags: ["AI", "React", "NextJS", "TailwindCss"],
+    title: "Note Taker",
+    description:
+      "Create and save your persistent notes to database, made with nexjs and mongoose",
+    image: "/projects/note-app.png",
+    tags: ["React", "NextJS", "Mongoose", "MongoDB", "TailwindCss"],
+    demoURL: "#",
+    gitHubURL: "#",
+  },
+  {
+    id: 4,
+    title: "UNIVERSITY OF NIGERA NSUKKA - UNN CLONE!",
+    description:
+      "coded to demostrate TailwindCSS and react skills, focus on UI",
+    image: "/projects/unn-clone.png",
+    tags: ["React", "TailwindCss"],
+    demoURL: "#",
+    gitHubURL: "#",
+  },
+  {
+    id: 5,
+    title: "NETFLIX CLONE!",
+    description: "Also made to demostrate TailwindCSS skills, focus on UI",
+    image: "/projects/netflix-clone.png",
+    tags: ["React", "TailwindCss"],
+    demoURL: "#",
+    gitHubURL: "#",
+  },
+  {
+    id: 6,
+    title: "YOUTUBE CLONE!",
+    description: "Created to demostrate TailwindCSS skills, focus on UI",
+    image: "/projects/youtube-clone.png",
+    tags: ["React", "TailwindCss"],
+    demoURL: "#",
+    gitHubURL: "#",
+  },
+  {
+    id: 7,
+    title: "MY PORTFOLIO version 1",
+    description:
+      "Created to demostrate TailwindCSS and react skills, with vite",
+    image: "/projects/myportfolio.png",
+    tags: ["React", "TailwindCss", "React", "Vite"],
     demoURL: "#",
     gitHubURL: "#",
   },
@@ -90,14 +129,6 @@ const ProjectsSection = () => {
               </div>
             </div>
           ))}
-        </div>
-        <div className="text-center mt-12">
-          <a
-            href="http://www.github.com/PRINCE-CEEJAY"
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
-          >
-            Check my Github <ArrowRight size={16} />
-          </a>
         </div>
       </div>
     </section>

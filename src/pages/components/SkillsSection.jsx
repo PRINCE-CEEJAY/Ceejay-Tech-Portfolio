@@ -6,12 +6,13 @@ const skills = [
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 95, category: "frontend" },
-  { name: "TypeScript", level: 50, category: "frontend" },
-  { name: "NextJs", level: 85, category: "frontend" },
-  { name: "Node Js", level: 75, category: "backend" },
+  { name: "TypeScript", level: 70, category: "frontend" },
+  { name: "NextJs", level: 90, category: "frontend" },
+  { name: "Node Js", level: 85, category: "backend" },
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "Firebase", level: 90, category: "tools" },
   { name: "VS Code", level: 100, category: "tools" },
+  { name: "MongoDB", level: 100, category: "backend" },
 ];
 const categories = ["all", "frontend", "backend", "tools"];
 

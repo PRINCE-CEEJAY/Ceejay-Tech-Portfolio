@@ -30,8 +30,10 @@ const FAQ = () => {
     setIsActive((prev) => !prev);
   };
   return (
-    <div className="flex flex-col bg-primary-foreground p-1 w-full rounded-md ">
-      <h1 className="text-blue-800">Frequently Asked Questions</h1>
+    <div className="flex flex-col bg-secondary-foreground p-1 w-full rounded-md ">
+      <h1 className="font-bold text-xl text-secondary-foreground">
+        FREQUENTLY ASKED QUESTIONS
+      </h1>
       {Questions.map((q) => (
         <div
           key={q.id}
@@ -47,7 +49,7 @@ const FAQ = () => {
             />
           </div>
           {currentId === q.id && isActive && (
-            <p className="text-primary">{q.answer}</p>
+            <h1 className="text-secondary-foreground text-xl">{q.answer}</h1>
           )}
         </div>
       ))}
