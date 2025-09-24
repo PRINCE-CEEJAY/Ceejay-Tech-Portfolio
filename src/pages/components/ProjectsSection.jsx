@@ -87,9 +87,12 @@ const ProjectsSection = () => {
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
+                <h1 className="text-center text-xl text-bold text-primary mb-1">
+                  {project.id}
+                </h1>
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={project.title / project.id}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
