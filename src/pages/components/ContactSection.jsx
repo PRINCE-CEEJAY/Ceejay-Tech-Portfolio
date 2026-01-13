@@ -128,7 +128,7 @@ const ContactSection = () => {
               <h4 className="font-bold text-2xl">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
-                  href="https://web.facebook.com/princeceejay.ng.1"
+                  href="https://www.facebook.com/profile.php?id=61582924493582"
                   target="_blank"
                   className="flex flex-col items-center font-bold"
                 >
