@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="min-h-screen bg-background text-foreground overflow-x-hidden"
+      className="min-h-screen overflow-x-hidden"
     >
       {/* Theme Toggle */}
       <ThemeToggle />
