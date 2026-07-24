@@ -73,7 +73,7 @@ const projects = [
     tags: ['React', 'TailwindCss', 'React', 'Vite'],
     demoURL: '#',
     gitHubURL: '#',
-    deployed: false,
+    deployed: true,
   },
 ];
 const ProjectsSection = () => {
