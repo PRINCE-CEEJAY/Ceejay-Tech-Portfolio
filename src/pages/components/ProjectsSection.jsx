@@ -9,6 +9,7 @@ const projects = [
     tags: ['vite', 'context api', 'react query'],
     demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
     gitHubURL: '#',
+    deployed: true,
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const projects = [
     tags: ['React', 'mongodb', 'TailwindCss', 'CRUD', 'todo', 'framer-motion'],
     demoURL: 'https://ceejay-fullstack-crud.vercel.app',
     gitHubURL: '#',
+    deployed: true,
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const projects = [
     tags: ['React', 'NextJS', 'Mongoose', 'MongoDB', 'TailwindCss'],
     demoURL: '#',
     gitHubURL: '#',
+    deployed: false,
   },
   {
     id: 4,
@@ -39,6 +42,7 @@ const projects = [
     tags: ['React', 'TailwindCss'],
     demoURL: '#',
     gitHubURL: '#',
+    deployed: false,
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ const projects = [
     tags: ['React', 'TailwindCss'],
     demoURL: '#',
     gitHubURL: '#',
+    deployed: false,
   },
   {
     id: 6,
@@ -57,6 +62,7 @@ const projects = [
     tags: ['React', 'TailwindCss'],
     demoURL: '#',
     gitHubURL: '#',
+    deployed: false,
   },
   {
     id: 7,
@@ -67,6 +73,7 @@ const projects = [
     tags: ['React', 'TailwindCss', 'React', 'Vite'],
     demoURL: '#',
     gitHubURL: '#',
+    deployed: false,
   },
 ];
 const ProjectsSection = () => {
@@ -112,24 +119,28 @@ const ProjectsSection = () => {
                 <p className='text-muted-foreground text-sm mb-4'>
                   {project.description}
                 </p>
-                <div className='flex justify-center text-center'>
-                  <div className='flex space-x-3 '>
-                    <a
-                      href={project.demoURL}
-                      target='_blank'
-                      className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
-                    >
-                      <ExternalLink size={20} />
-                    </a>
-                    <a
-                      href={project.gitHubURL}
-                      target='_blank'
-                      className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
-                    >
-                      <Github size={20} />
-                    </a>
+                {project.deployed ? (
+                  <div className='flex justify-center text-center'>
+                    <div className='flex space-x-3 '>
+                      <a
+                        href={project.demoURL}
+                        target='_blank'
+                        className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                      <a
+                        href={project.gitHubURL}
+                        target='_blank'
+                        className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
+                      >
+                        <Github size={20} />
+                      </a>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <p className='italic text-center'>In Development...</p>
+                )}
               </div>
             </div>
           ))}
