@@ -97,7 +97,7 @@ const ProjectsSection = () => {
               key={key}
               className='group bg-card rounded-lg overflow-hidden shadow-xs card-hover'
             >
-              <div className='h-48 overflow-hidden'>
+              <div className='overflow-hidden'>
                 <img
                   src={project.image}
                   alt={project.title / project.id}
