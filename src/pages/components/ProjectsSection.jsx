@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: 'Add to Cart System',
     description: 'A shopping add to cart system',
-    image: '/projects/shop-add-to-cart.jpg',
+    image: '/projects/shop-add-to-cart.png',
     tags: ['vite', 'context api', 'react query'],
     demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
     gitHubURL: '#',
