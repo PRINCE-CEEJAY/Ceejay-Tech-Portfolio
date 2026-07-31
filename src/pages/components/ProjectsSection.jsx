@@ -42,7 +42,7 @@ const projects = [
     tags: ['React', 'TailwindCss'],
     demoURL: 'https://solo-project-unn-clone.vercel.app/',
     gitHubURL: '#',
-    deployed: false,
+    deployed: true,
   },
   {
     id: 5,
