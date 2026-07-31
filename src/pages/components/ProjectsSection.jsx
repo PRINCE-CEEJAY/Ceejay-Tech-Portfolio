@@ -24,14 +24,14 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Note Taker',
+    title: 'FULLSTACK CRUD APPS WITH MONGODB',
     description:
-      'Create and save your persistent notes to database, made with nexjs and mongoose',
+      'Create and save your persistent notes, todos, etc, all at once to database, made with nexjs and mongoose',
     image: '/projects/note-app.png',
     tags: ['React', 'NextJS', 'Mongoose', 'MongoDB', 'TailwindCss'],
-    demoURL: '#',
+    demoURL: 'https://fullstack-crud-apps-with-mongodb.vercel.app/',
     gitHubURL: '#',
-    deployed: false,
+    deployed: true,
   },
   {
     id: 4,
