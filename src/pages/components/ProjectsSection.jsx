@@ -40,7 +40,7 @@ const projects = [
       'coded to demostrate TailwindCSS and react skills, focus on UI',
     image: '/projects/unn-clone.png',
     tags: ['React', 'TailwindCss'],
-    demoURL: '#',
+    demoURL: 'https://solo-project-unn-clone.vercel.app/',
     gitHubURL: '#',
     deployed: false,
   },
