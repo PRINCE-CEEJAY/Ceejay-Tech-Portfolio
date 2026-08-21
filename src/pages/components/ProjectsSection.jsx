@@ -151,7 +151,7 @@ const ProjectsSection = () => {
 
     <div id='projects'>
       <h1 className='text-5xl font-extrabold text-transparent bg-clip-text bg-linear-to-br from-green-900 via-blue-500 to-purple-800 text-center uppercase'>
-        Coming Soon !
+        Projects Coming Soon !
       </h1>
     </div>
   );
