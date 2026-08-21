@@ -1,81 +1,81 @@
 import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 import React from 'react';
-const projects = [
-  {
-    id: 1,
-    title: 'Add to Cart System',
-    description: 'A shopping add to cart system',
-    image: '/projects/shop-add-to-cart.png',
-    tags: ['vite', 'context api', 'react query'],
-    demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
-    gitHubURL: '#',
-    deployed: true,
-  },
-  {
-    id: 2,
-    title: 'Advanced Fullstack Taskify CRUD',
-    description:
-      'an advanced fullstack crud app with filtering feature and framer-motion animations, connected with mongodb database',
-    image: '/projects/fullstack-crud.png',
-    tags: ['React', 'mongodb', 'TailwindCss', 'CRUD', 'todo', 'framer-motion'],
-    demoURL: 'https://ceejay-fullstack-crud.vercel.app',
-    gitHubURL: '#',
-    deployed: true,
-  },
-  {
-    id: 3,
-    title: 'FULLSTACK CRUD APPS WITH MONGODB',
-    description:
-      'Create and save your persistent notes, todos, etc, all at once to database, made with nexjs and mongoose',
-    image: '/projects/note-app.png',
-    tags: ['React', 'NextJS', 'Mongoose', 'MongoDB', 'TailwindCss'],
-    demoURL: 'https://fullstack-crud-apps-with-mongodb.vercel.app/',
-    gitHubURL: '#',
-    deployed: true,
-  },
-  {
-    id: 4,
-    title: 'UNIVERSITY OF NIGERA NSUKKA - UNN CLONE!',
-    description:
-      'coded to demostrate TailwindCSS and react skills, focus on UI',
-    image: '/projects/unn-clone.png',
-    tags: ['React', 'TailwindCss'],
-    demoURL: 'https://solo-project-unn-clone.vercel.app/',
-    gitHubURL: '#',
-    deployed: true,
-  },
-  {
-    id: 5,
-    title: 'NETFLIX CLONE!',
-    description: 'Also made to demostrate TailwindCSS skills, focus on UI',
-    image: '/projects/netflix-clone.png',
-    tags: ['React', 'TailwindCss'],
-    demoURL: '#',
-    gitHubURL: '#',
-    deployed: false,
-  },
-  {
-    id: 6,
-    title: 'YOUTUBE CLONE!',
-    description: 'Created to demostrate TailwindCSS skills, focus on UI',
-    image: '/projects/youtube-clone.png',
-    tags: ['React', 'TailwindCss'],
-    demoURL: '#',
-    gitHubURL: '#',
-    deployed: false,
-  },
-  {
-    id: 7,
-    title: 'MY PORTFOLIO version 1',
-    description:
-      'Created to demostrate TailwindCSS and react skills, with vite',
-    image: '/projects/myportfolio.png',
-    tags: ['React', 'TailwindCss', 'React', 'Vite'],
-    demoURL: '#',
-    gitHubURL: '#',
-    deployed: true,
-  },
-];
+// const projects = [
+//   {
+//     id: 1,
+//     title: 'Add to Cart System',
+//     description: 'A shopping add to cart system',
+//     image: '/projects/shop-add-to-cart.png',
+//     tags: ['vite', 'context api', 'react query'],
+//     demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
+//     gitHubURL: '#',
+//     deployed: true,
+//   },
+//   {
+//     id: 2,
+//     title: 'Advanced Fullstack Taskify CRUD',
+//     description:
+//       'an advanced fullstack crud app with filtering feature and framer-motion animations, connected with mongodb database',
+//     image: '/projects/fullstack-crud.png',
+//     tags: ['React', 'mongodb', 'TailwindCss', 'CRUD', 'todo', 'framer-motion'],
+//     demoURL: 'https://ceejay-fullstack-crud.vercel.app',
+//     gitHubURL: '#',
+//     deployed: true,
+//   },
+//   {
+//     id: 3,
+//     title: 'FULLSTACK CRUD APPS WITH MONGODB',
+//     description:
+//       'Create and save your persistent notes, todos, etc, all at once to database, made with nexjs and mongoose',
+//     image: '/projects/note-app.png',
+//     tags: ['React', 'NextJS', 'Mongoose', 'MongoDB', 'TailwindCss'],
+//     demoURL: 'https://fullstack-crud-apps-with-mongodb.vercel.app/',
+//     gitHubURL: '#',
+//     deployed: true,
+//   },
+//   {
+//     id: 4,
+//     title: 'UNIVERSITY OF NIGERA NSUKKA - UNN CLONE!',
+//     description:
+//       'coded to demostrate TailwindCSS and react skills, focus on UI',
+//     image: '/projects/unn-clone.png',
+//     tags: ['React', 'TailwindCss'],
+//     demoURL: 'https://solo-project-unn-clone.vercel.app/',
+//     gitHubURL: '#',
+//     deployed: true,
+//   },
+//   {
+//     id: 5,
+//     title: 'NETFLIX CLONE!',
+//     description: 'Also made to demostrate TailwindCSS skills, focus on UI',
+//     image: '/projects/netflix-clone.png',
+//     tags: ['React', 'TailwindCss'],
+//     demoURL: '#',
+//     gitHubURL: '#',
+//     deployed: false,
+//   },
+//   {
+//     id: 6,
+//     title: 'YOUTUBE CLONE!',
+//     description: 'Created to demostrate TailwindCSS skills, focus on UI',
+//     image: '/projects/youtube-clone.png',
+//     tags: ['React', 'TailwindCss'],
+//     demoURL: '#',
+//     gitHubURL: '#',
+//     deployed: false,
+//   },
+//   {
+//     id: 7,
+//     title: 'MY PORTFOLIO version 1',
+//     description:
+//       'Created to demostrate TailwindCSS and react skills, with vite',
+//     image: '/projects/myportfolio.png',
+//     tags: ['React', 'TailwindCss', 'React', 'Vite'],
+//     demoURL: '#',
+//     gitHubURL: '#',
+//     deployed: true,
+//   },
+// ];
 const ProjectsSection = () => {
   return (
     // <section
