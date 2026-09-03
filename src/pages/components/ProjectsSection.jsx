@@ -75,6 +75,17 @@ const projects = [
     gitHubURL: '#',
     deployed: true,
   },
+  {
+    id: 8,
+    title: 'Add to Cart System',
+    description:
+      'An E-commerce shopping app, client side based',
+    image: '/projects/shop-add-to-cart.png',
+    tags: ['React', 'TailwindCss', 'React', 'Vite'],
+    demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
+    gitHubURL: '#',
+    deployed: true,
+  },
 ];
 const ProjectsSection = () => {
   return (
