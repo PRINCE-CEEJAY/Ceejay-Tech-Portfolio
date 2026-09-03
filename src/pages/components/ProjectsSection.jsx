@@ -1,159 +1,159 @@
 import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 import React from 'react';
-// const projects = [
-//   {
-//     id: 1,
-//     title: 'Add to Cart System',
-//     description: 'A shopping add to cart system',
-//     image: '/projects/shop-add-to-cart.png',
-//     tags: ['vite', 'context api', 'react query'],
-//     demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
-//     gitHubURL: '#',
-//     deployed: true,
-//   },
-//   {
-//     id: 2,
-//     title: 'Advanced Fullstack Taskify CRUD',
-//     description:
-//       'an advanced fullstack crud app with filtering feature and framer-motion animations, connected with mongodb database',
-//     image: '/projects/fullstack-crud.png',
-//     tags: ['React', 'mongodb', 'TailwindCss', 'CRUD', 'todo', 'framer-motion'],
-//     demoURL: 'https://ceejay-fullstack-crud.vercel.app',
-//     gitHubURL: '#',
-//     deployed: true,
-//   },
-//   {
-//     id: 3,
-//     title: 'FULLSTACK CRUD APPS WITH MONGODB',
-//     description:
-//       'Create and save your persistent notes, todos, etc, all at once to database, made with nexjs and mongoose',
-//     image: '/projects/note-app.png',
-//     tags: ['React', 'NextJS', 'Mongoose', 'MongoDB', 'TailwindCss'],
-//     demoURL: 'https://fullstack-crud-apps-with-mongodb.vercel.app/',
-//     gitHubURL: '#',
-//     deployed: true,
-//   },
-//   {
-//     id: 4,
-//     title: 'UNIVERSITY OF NIGERA NSUKKA - UNN CLONE!',
-//     description:
-//       'coded to demostrate TailwindCSS and react skills, focus on UI',
-//     image: '/projects/unn-clone.png',
-//     tags: ['React', 'TailwindCss'],
-//     demoURL: 'https://solo-project-unn-clone.vercel.app/',
-//     gitHubURL: '#',
-//     deployed: true,
-//   },
-//   {
-//     id: 5,
-//     title: 'NETFLIX CLONE!',
-//     description: 'Also made to demostrate TailwindCSS skills, focus on UI',
-//     image: '/projects/netflix-clone.png',
-//     tags: ['React', 'TailwindCss'],
-//     demoURL: '#',
-//     gitHubURL: '#',
-//     deployed: false,
-//   },
-//   {
-//     id: 6,
-//     title: 'YOUTUBE CLONE!',
-//     description: 'Created to demostrate TailwindCSS skills, focus on UI',
-//     image: '/projects/youtube-clone.png',
-//     tags: ['React', 'TailwindCss'],
-//     demoURL: '#',
-//     gitHubURL: '#',
-//     deployed: false,
-//   },
-//   {
-//     id: 7,
-//     title: 'MY PORTFOLIO version 1',
-//     description:
-//       'Created to demostrate TailwindCSS and react skills, with vite',
-//     image: '/projects/myportfolio.png',
-//     tags: ['React', 'TailwindCss', 'React', 'Vite'],
-//     demoURL: '#',
-//     gitHubURL: '#',
-//     deployed: true,
-//   },
-// ];
+const projects = [
+  {
+    id: 1,
+    title: 'Byte of Wisdom',
+    description: 'Fetches Random Advice, Quotes and Jokes from an API',
+    image: '/projects/byte-of-wisdom.png',
+    tags: ['vite', 'shadcn', 'framer-motion', 'tailwindcss', 'typescript', 'react'],
+    demoURL: 'https://byte-of-wisdom.vercel.app',
+    gitHubURL: '#',
+    deployed: true,
+  },
+  // {
+  //   id: 2,
+  //   title: 'Advanced Fullstack Taskify CRUD',
+  //   description:
+  //     'an advanced fullstack crud app with filtering feature and framer-motion animations, connected with mongodb database',
+  //   image: '/projects/fullstack-crud.png',
+  //   tags: ['React', 'mongodb', 'TailwindCss', 'CRUD', 'todo', 'framer-motion'],
+  //   demoURL: 'https://ceejay-fullstack-crud.vercel.app',
+  //   gitHubURL: '#',
+  //   deployed: true,
+  // },
+  // {
+  //   id: 3,
+  //   title: 'FULLSTACK CRUD APPS WITH MONGODB',
+  //   description:
+  //     'Create and save your persistent notes, todos, etc, all at once to database, made with nexjs and mongoose',
+  //   image: '/projects/note-app.png',
+  //   tags: ['React', 'NextJS', 'Mongoose', 'MongoDB', 'TailwindCss'],
+  //   demoURL: 'https://fullstack-crud-apps-with-mongodb.vercel.app/',
+  //   gitHubURL: '#',
+  //   deployed: true,
+  // },
+  // {
+  //   id: 4,
+  //   title: 'UNIVERSITY OF NIGERA NSUKKA - UNN CLONE!',
+  //   description:
+  //     'coded to demostrate TailwindCSS and react skills, focus on UI',
+  //   image: '/projects/unn-clone.png',
+  //   tags: ['React', 'TailwindCss'],
+  //   demoURL: 'https://solo-project-unn-clone.vercel.app/',
+  //   gitHubURL: '#',
+  //   deployed: true,
+  // },
+  // {
+  //   id: 5,
+  //   title: 'NETFLIX CLONE!',
+  //   description: 'Also made to demostrate TailwindCSS skills, focus on UI',
+  //   image: '/projects/netflix-clone.png',
+  //   tags: ['React', 'TailwindCss'],
+  //   demoURL: '#',
+  //   gitHubURL: '#',
+  //   deployed: false,
+  // },
+  // {
+  //   id: 6,
+  //   title: 'YOUTUBE CLONE!',
+  //   description: 'Created to demostrate TailwindCSS skills, focus on UI',
+  //   image: '/projects/youtube-clone.png',
+  //   tags: ['React', 'TailwindCss'],
+  //   demoURL: '#',
+  //   gitHubURL: '#',
+  //   deployed: false,
+  // },
+  {
+    id: 7,
+    title: 'MY PORTFOLIO version 1',
+    description:
+      'Created to demostrate TailwindCSS and react skills, with vite',
+    image: '/projects/myportfolio.png',
+    tags: ['React', 'TailwindCss', 'React', 'Vite'],
+    demoURL: '#',
+    gitHubURL: '#',
+    deployed: true,
+  },
+];
 const ProjectsSection = () => {
   return (
-    // <section
-    //   id='projects'
-    //   className='py-24 px-4 relative'
-    // >
-    //   <div className='container mx-auto max-w-5xl'>
-    //     <h2 className='text-3xl md:text-4xl font-bold mb-4 text-center'>
-    //       Featured <span className='text-primary'>Projects</span>
-    //     </h2>
-    //     <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
-    //       Here are some of my recent projects. Each project was carefully
-    //       crafted with attention to detail, performance and user experience.
-    //     </p>
+    <section
+      id='projects'
+      className='py-24 px-4 relative'
+    >
+      <div className='container mx-auto max-w-5xl'>
+        <h2 className='text-3xl md:text-4xl font-bold mb-4 text-center'>
+          Featured <span className='text-primary'>Projects</span>
+        </h2>
+        <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
+          Here are some of my recent projects. Each project was carefully
+          crafted with attention to detail, performance and user experience.
+        </p>
 
-    //     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-    //       {projects.map((project, key) => (
-    //         <div
-    //           key={key}
-    //           className='group bg-card rounded-lg overflow-hidden shadow-xs card-hover'
-    //         >
-    //           <div className='overflow-hidden'>
-    //             <img
-    //               src={project.image}
-    //               alt={project.title / project.id}
-    //               className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
-    //             />
-    //           </div>
-    //           <div className='p-6'>
-    //             <div className='flex flex-wrap justify-center gap-2 mb-4'>
-    //               {project.tags.map((tag, key) => (
-    //                 <span
-    //                   key={key}
-    //                   className='px-2 py-1 font-medium border rounded-full bg-secondary bg-primary/20 text-secondary-foreground'
-    //                 >
-    //                   {tag}
-    //                 </span>
-    //               ))}
-    //             </div>
-    //             <h3 className='text-xl font-semibold mb-1'>{project.title}</h3>
-    //             <p className='text-muted-foreground text-sm mb-4'>
-    //               {project.description}
-    //             </p>
-    //             {project.deployed ? (
-    //               <div className='flex justify-center text-center'>
-    //                 <div className='flex space-x-3 '>
-    //                   <a
-    //                     href={project.demoURL}
-    //                     target='_blank'
-    //                     className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
-    //                   >
-    //                     <ExternalLink size={20} />
-    //                   </a>
-    //                   <a
-    //                     href={project.gitHubURL}
-    //                     target='_blank'
-    //                     className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
-    //                   >
-    //                     <Github size={20} />
-    //                   </a>
-    //                 </div>
-    //               </div>
-    //             ) : (
-    //               <p className='italic text-center'>In Development...</p>
-    //             )}
-    //           </div>
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {projects.map((project, key) => (
+            <div
+              key={key}
+              className='group bg-card rounded-lg overflow-hidden shadow-xs card-hover'
+            >
+              <div className='overflow-hidden'>
+                <img
+                  src={project.image}
+                  alt={project.title / project.id}
+                  className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
+                />
+              </div>
+              <div className='p-6'>
+                <div className='flex flex-wrap justify-center gap-2 mb-4'>
+                  {project.tags.map((tag, key) => (
+                    <span
+                      key={key}
+                      className='px-2 py-1 font-medium border rounded-full bg-secondary bg-primary/20 text-secondary-foreground'
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <h3 className='text-xl font-semibold mb-1'>{project.title}</h3>
+                <p className='text-muted-foreground text-sm mb-4'>
+                  {project.description}
+                </p>
+                {project.deployed ? (
+                  <div className='flex justify-center text-center'>
+                    <div className='flex space-x-3 '>
+                      <a
+                        href={project.demoURL}
+                        target='_blank'
+                        className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                      <a
+                        href={project.gitHubURL}
+                        target='_blank'
+                        className='text-foreground/80 hover:text-primary tranistion-colors duration-300'
+                      >
+                        <Github size={20} />
+                      </a>
+                    </div>
+                  </div>
+                ) : (
+                  <p className='italic text-center'>In Development...</p>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
-    // </section>
+    </section>
 
-    <div id='projects'>
-      <h1 className='text-5xl font-extrabold text-transparent bg-clip-text bg-linear-to-br from-green-900 via-blue-500 to-purple-800 text-center uppercase'>
-        Projects Coming Soon !
-      </h1>
-    </div>
+    // <div id='projects'>
+    //   <h1 className='text-5xl font-extrabold text-transparent bg-clip-text bg-linear-to-br from-green-900 via-blue-500 to-purple-800 text-center uppercase'>
+    //     Projects Coming Soon !
+    //   </h1>
+    // </div>
   );
 };
 
