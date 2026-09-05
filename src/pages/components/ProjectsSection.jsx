@@ -6,22 +6,39 @@ const projects = [
     title: 'Byte of Wisdom',
     description: 'Fetches Random Advice, Quotes and Jokes from an API',
     image: '/projects/byte-of-wisdom.png',
-    tags: ['vite', 'shadcn', 'framer-motion', 'tailwindcss', 'typescript', 'react'],
+    tags: [
+      'vite',
+      'shadcn',
+      'framer-motion',
+      'tailwindcss',
+      'typescript',
+      'react',
+    ],
     demoURL: 'https://byte-of-wisdom.vercel.app',
     gitHubURL: '#',
     deployed: true,
   },
-  // {
-  //   id: 2,
-  //   title: 'Advanced Fullstack Taskify CRUD',
-  //   description:
-  //     'an advanced fullstack crud app with filtering feature and framer-motion animations, connected with mongodb database',
-  //   image: '/projects/fullstack-crud.png',
-  //   tags: ['React', 'mongodb', 'TailwindCss', 'CRUD', 'todo', 'framer-motion'],
-  //   demoURL: 'https://ceejay-fullstack-crud.vercel.app',
-  //   gitHubURL: '#',
-  //   deployed: true,
-  // },
+  {
+    id: 2,
+    title: 'Movie Database',
+    description:
+      'a frontend app movie searching app, find your movies when you search by the movie title',
+    image: '/projects/movie-db.png',
+    tags: [
+      'React',
+      'mongodb',
+      'TailwindCss',
+      'CRUD',
+      'todo',
+      'framer-motion',
+      'redux',
+      'react-query',
+      'axios',
+    ],
+    demoURL: 'https://ceejay-movies-db.vercel.app',
+    gitHubURL: '#',
+    deployed: true,
+  },
   // {
   //   id: 3,
   //   title: 'FULLSTACK CRUD APPS WITH MONGODB',
@@ -78,8 +95,7 @@ const projects = [
   {
     id: 8,
     title: 'Add to Cart System',
-    description:
-      'An E-commerce shopping app, client side based',
+    description: 'An E-commerce shopping app, client side based',
     image: '/projects/shop-add-to-cart.png',
     tags: ['React', 'TailwindCss', 'React', 'Vite'],
     demoURL: 'https://ceejay-add-to-cart-system.vercel.app',
@@ -157,7 +173,6 @@ const ProjectsSection = () => {
           ))}
         </div>
       </div>
-
     </section>
 
     // <div id='projects'>
