@@ -35,7 +35,7 @@ const projects = [
       'react-query',
       'axios',
     ],
-    demoURL: 'https://ceejay-movies-db.vercel.app',
+    demoURL: 'https://ceemovies.vercel.app',
     gitHubURL: '#',
     deployed: true,
   },
